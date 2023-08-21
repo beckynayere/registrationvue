@@ -1,8 +1,10 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from "@/components/HelloWorld"
-import Register from "@/components/Register  "
+import Register from "@/components/Register"
 // import router from './router'
+
+Vue.config.productionTip = false;
 
 
 Vue.use(Router)

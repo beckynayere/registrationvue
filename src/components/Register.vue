@@ -1,5 +1,5 @@
 <template>
-    <div class="card">
+    <div class="card" align="left">
         <div class="card-header">Register Form</div>
         <div class="card-body">
             <form @submit.prevent="saveData">
