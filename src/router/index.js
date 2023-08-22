@@ -1,15 +1,10 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import HelloWorld from "@/components/HelloWorld"
-import Register from "@/components/Register"
-// import router from './router'
+import Vue from 'vue';
+import Router from 'vue-router';
+import HelloWorld from "@/components/HelloWorld";
+import Register from '@/components/Register';
+import Login from '@/components/Login'
 
-Vue.config.productionTip = false;
-
-
-Vue.use(Router)
-
-// const router = new Router({
+Vue.use(Router);
 export default new Router({
 routes: [
     {
@@ -19,9 +14,15 @@ routes: [
     },
     {
         path: '/register',
-        name:'Register',
-        component:Register
+        name: 'Register',
+        component: Register
     },
+
+    {
+        path: '/login',
+        name: 'Login',
+        component: Login
+    }, 
 
 ]
 })
